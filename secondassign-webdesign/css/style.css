@@ -1,0 +1,71 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    padding: 3px;
+    margin-bottom: 20px;
+}
+ 
+
+.inputfield{
+  background-color: lightgray;
+  border: 0;
+  margin-left: 5px;
+    padding:8px 10px;
+    font-size: 18px;
+    width: 80%;
+}
+.messagebox{
+    background-color: lightgray;
+   
+    margin-left: 5px;
+      padding:10px 85px;
+      
+       
+}
+.contact p{
+    margin-bottom: 100px;
+    padding: 30px;
+}
+.submitbtn{
+    background-color: aqua;
+    font-size: 20px;
+    border: 0;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contactinfo{
+    width: 80%;
+    /* background-color: brown; */
+    margin: auto;
+}
+.contactform{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+    /* background-color: blue; */
+}
+.contactform h1{
+    text-align: center;
+}
+.contact{
+    padding: 70px;
+    font-size: 20px;
+   text-align: center;
+    background-color: aqua;
+    display: inline-block;
+   
+width: 50%;
+vertical-align: middle;
+
+    
+}
+
+
