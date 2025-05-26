@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+         table {
+            border-collapse: separate;
+            border-spacing: 3px;
+            width: 60%;
+            margin: 20px auto;
+            border: double 3px black;
+            font-family: Arial, sans-serif;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td[colspan="3"] {
+            font-weight: bold;
+            background-color: #f0f0f0;
+        }
+        td[colspan="2"] {
+            background-color: #e6f3ff;
+        }
+        .time {
+            background-color: #ffffcc;
+        }
+        .end-time {
+            background-color: #ccffff;
+        }
+        .topic {
+            background-color: #e6e6fa;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- <table style="width:50%"> -->
+
+        <!-- <tr> -->
+            <!-- <td rowspan="3"> -->
+                <!-- Day -->
+            <!-- </td> -->
+            <!-- <td colspan="3">Seminar</td> -->
+        <!-- </tr> -->
+
+        <!-- <tr> -->
+            <!-- <td colspan="2">schedule</td> -->
+            <!-- <td rowspan="2">Topic</td> -->
+
+        <!-- </tr> -->
+        <!-- <tr> -->
+            <!-- <td>begin</td> -->
+            <!-- <td>end</td> -->
+
+        <!-- </tr> -->
+        <!-- <tr> -->
+            <!-- <td rowspan="2">Monday</td> -->
+            <!-- <td rowspan="2">8:00</td> -->
+            <!-- <td rowspan="2">5:00</td> -->
+            <!-- <td>introduction to html</td> -->
+        <!-- </tr> -->
+        <!-- <tr> -->
+
+            <!-- <td>validity DTD</td> -->
+        <!-- </tr> -->
+        <!-- <tr> -->
+            <!-- <td rowspan="3">Tuseday</td> -->
+            <!-- <td>8:00</td> -->
+            <!-- <td>11:00</td> -->
+
+        <!-- </tr> -->
+
+
+    <!-- </table> -->
+
+    <table  style="border-collapse: collapse; width: 60%;">
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+    
+
+
+
+
+
+
+
+
+
+
+      
+
+</body>
+
+</html>
